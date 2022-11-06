@@ -1,0 +1,23 @@
+{
+  "name": "greenajax",
+  "version": "1.0.1",
+  "description": "make your work easy in ajax",
+  "main": "./dist/greenajax.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagharizadeh/greenajax.git"
+  },
+  "keywords": [
+    "ajax",
+    "front-end"
+  ],
+  "author": "sagharizadeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagharizadeh/greenajax/issues"
+  },
+  "homepage": "https://github.com/sagharizadeh/greenajax#readme"
+}
