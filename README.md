@@ -16,7 +16,7 @@ npm install greenajax
 Or from CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/greenajax@1.0.1/dist/greenajax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/greenajax@1.0.2/dist/greenajax.min.js"></script>
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Or from CDN:
 ### GET request
 ```js
 greenajax({
-	method: 'GET',
+	method: 'get',
 	url: 'http://localhost:3000/api'
 }, json => {
 	console.log(json);
@@ -34,7 +34,7 @@ greenajax({
 ### POST request
 ```js
 greenajax({
-	method: 'POST',
+	method: 'post',
 	url: 'http://localhost:3000/api',
 	body: {
 		id: 101,
@@ -50,7 +50,7 @@ greenajax({
 ### PUT request
 ```js
 greenajax({
-	method: 'PUT',
+	method: 'put',
 	url: 'http://localhost:3000/api',
 	body: {
 		id: 1,
@@ -66,7 +66,7 @@ greenajax({
 ### PATCH request
 ```js
 greenajax({
-	method: 'PATCH',
+	method: 'patch',
 	url: 'http://localhost:3000/api',
 	body: {
 		title: 'foo'
@@ -79,7 +79,7 @@ greenajax({
 ### DELETE request
 ```js
 greenajax({
-	method: 'DELETE',
+	method: 'delete',
 	url: 'http://localhost:3000/api'
 }, json => {
 	console.log(json);
@@ -89,7 +89,7 @@ greenajax({
 ### HEAD request
 ```js
 greenajax({
-	method: 'HEAD',
+	method: 'head',
 	url: 'http://localhost:3000/api'
 }, json => {
 	console.log(json);
