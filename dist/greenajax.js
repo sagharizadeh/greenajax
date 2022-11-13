@@ -1,5 +1,6 @@
 function greenajax(options, callback) {
 	options.method = options.method.toUpperCase();
+	if (options.method !== 'GET' && options.method !== 'POST' && options.method !== 'PUT' && options.method !== 'PATCH' && options.method !== 'DELETE' && options.method !== 'HEAD') throw new Error(`method "${options.method}" is not supported`);
 	if (options.method === 'GET' || options.method === 'DELETE' || options.method === 'HEAD') {
 		if (!options.method || !options.url) throw new Error('the values of the url and method options are required');
 	} else {

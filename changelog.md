@@ -1,5 +1,13 @@
 # GreenAjax Changelog
 
+## [1.1.2] - 2022-11-13
+
+### Added
+
+### Changed
+
+### Fixed
+
 ## [1.1.1] - 2022-11-13
 
 ### Added
