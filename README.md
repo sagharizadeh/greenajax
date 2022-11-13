@@ -16,7 +16,7 @@ npm install greenajax
 Or from CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/greenajax@1.0.0/dist/greenajax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/greenajax@1.1.0/dist/greenajax.min.js"></script>
 ```
 
 ## Usage
