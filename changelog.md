@@ -1,5 +1,15 @@
 # GreenAjax Changelog
 
+## [1.1.0] - 2022-11-13
+
+### Added
+
+- added fetch options to options
+
+### Changed
+
+### Fixed
+
 ## [1.0.3] - 2022-11-13
 
 ### Added

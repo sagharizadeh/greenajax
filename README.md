@@ -16,7 +16,7 @@ npm install greenajax
 Or from CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/greenajax@1.0.3/dist/greenajax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/greenajax@1.0.0/dist/greenajax.min.js"></script>
 ```
 
 ## Usage
@@ -96,12 +96,18 @@ greenajax({
 });
 ```
 
-You can also edit the header option:
+You can also edit fetch options:
 
 ```js
 greenajax({
 	method: 'get',
 	url: 'http://localhost:3000/api',
+	mode: 'cors', // 'cors', 'no-cors' or 'same-origin'
+	credentials: 'same-origin', // 'same-origin', 'omit' or 'include'
+	cache: 'default', // 'default', 'no-store', 'reload', 'no-cache', 'force-cache' or 'only-if-cached'
+	redirect: 'follow', // 'follow', 'error' or 'manual'
+	referrer: 'about:client',
+	referrerPolicy: 'no-referrer', // 'no-referrer', 'no-referrer-when-downgrade', 'same-origin', 'origin', 'strict-origin', 'origin-when-cross-origin', 'strict-origin-when-cross-origin' or 'unsafe-url'
 	headers: {
 		'Content-Type' : 'application/json'
 	}
