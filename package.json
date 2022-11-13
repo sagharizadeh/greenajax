@@ -1,6 +1,6 @@
 {
   "name": "greenajax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "make your work easy in ajax",
   "main": "./dist/greenajax.min.js",
   "scripts": {
